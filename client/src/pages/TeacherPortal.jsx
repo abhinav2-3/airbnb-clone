@@ -71,7 +71,7 @@ const TeacherPortal = () => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="flex w-full justify-center my-10 gap-8 items-center">
+      <div className="flex w-full justify-center my-10 gap-8 items-center flex-col md:flex-row">
         <button
           className="rounded px-4 py-2 h-12 bg-green text-black font-semibold"
           onClick={() => setStudentBox(!studentBox)}
@@ -79,7 +79,7 @@ const TeacherPortal = () => {
           + Add Students
         </button>
         {studentBox && (
-          <aside className="flex gap-8 justify-center items-center h-28">
+          <aside className="flex items-start w-3/4 md:flex-row flex-col gap-8 justify-center md:items-center min-h-28">
             <div className="mb-4">
               <label className="block text-sm font-bold mb-2" htmlFor="name">
                 Student Name
@@ -135,7 +135,7 @@ const TeacherPortal = () => {
       </div>
 
       {/* Table Component */}
-      <div className="flex w-full h-full flex-col items-center">
+      <div className="flex w-full h-full flex-col items-center pb-10">
         <DatePicker
           name="createdAt"
           value={date}
@@ -144,7 +144,7 @@ const TeacherPortal = () => {
           onChange={(date) => setDate(date)}
           className="m-4 text-black rounded px-2 flex items-end"
         />
-        <table className="table-auto border-collapse border w-3/4">
+        <table className="table-auto border-collapse border py-10 w-3/4">
           <thead>
             <tr>
               {rowData.map((i) => (

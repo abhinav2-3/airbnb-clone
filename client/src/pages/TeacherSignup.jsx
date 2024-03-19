@@ -35,9 +35,9 @@ const TeacherSignup = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="w-full flex justify-center items-center h-screen">
       <form
-        className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-1/3"
+        className="bg-white w-[70%] lg:w-1/3 shadow-md rounded px-8 pt-6 pb-8 mb-4"
         onSubmit={handleSubmit}
       >
         <h2 className="text-2xl mb-4 font-bold text-black">Teacher Signup</h2>

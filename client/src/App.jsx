@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div className="bg-gray-800 w-screen min-h-screen text-white">
+    <div className="bg-gray-800 w-full min-h-screen text-white">
       <Toaster />
       <Router>
         <Routes>
