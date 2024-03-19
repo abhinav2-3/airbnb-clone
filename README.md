@@ -11,7 +11,7 @@ The Attendance Portal is a web application designed for teachers to manage atten
 - **Remove Students:** Remove students from classes as needed.
 
 ## Demo Video
-A demo video showcasing the project functionalities, including client-side and server-side interactions, is available [here]([link-to-demo-video](https://github.com/abhinav2-3/airbnb-clone/blob/master/Attendance%20Portal.mkv)).
+A demo video showcasing the project functionalities, including client-side and server-side interactions, is available [here]([https://github.com/abhinav2-3/attendance-portal/raw/master/Attendance%20Portal.mp4])).
 
 ## Technologies Used
 - Frontend: HTML, CSS, JavaScript (MERN stack)
