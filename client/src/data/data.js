@@ -6,8 +6,8 @@ export const rowData = [
   "Remove",
 ];
 
-export const API_ADDSTUDENT = "http://localhost:8000/addStudent";
-export const API_GETSTUDENT = "http://localhost:8000/getStudent";
-export const API_REMOVESTUDENT = "http://localhost:8000/removeStudent";
-export const API_LOGIN = "http://localhost:8000/teacherLogin";
-export const API_SIGNUP = "http://localhost:8000/teacherSignup";
+export const API_ADDSTUDENT = "https://attendance-portal-je4y.onrender.com/addStudent";
+export const API_GETSTUDENT = "https://attendance-portal-je4y.onrender.com/getStudent";
+export const API_REMOVESTUDENT = "https://attendance-portal-je4y.onrender.com/removeStudent";
+export const API_LOGIN = "https://attendance-portal-je4y.onrender.com/teacherLogin";
+export const API_SIGNUP = "https://attendance-portal-je4y.onrender.com/teacherSignup";
